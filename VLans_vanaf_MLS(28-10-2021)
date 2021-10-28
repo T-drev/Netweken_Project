@@ -1,0 +1,69 @@
+MLS_ASSEN#show vlan
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gi1/0/1, Gi1/0/21, Gi1/0/22
+                                                Gi1/0/23, Gi1/0/24, Gi1/1/1
+                                                Gi1/1/2, Gi1/1/3, Gi1/1/4
+10   LAN_ASSEN                        active    Gi1/0/5, Gi1/0/6, Gi1/0/7
+                                                Gi1/0/8, Gi1/0/9, Gi1/0/10
+                                                Gi1/0/11, Gi1/0/12, Gi1/0/13
+                                                Gi1/0/14, Gi1/0/15, Gi1/0/16
+                                                Gi1/0/17, Gi1/0/18, Gi1/0/19
+                                                Gi1/0/20
+20   WiFi_ASSEN                       active    Gi1/0/2
+30   DMZ(servers)                     active    Gi1/0/3, Gi1/0/4
+1002 fddi-default                     act/unsup
+1003 trcrf-default                    act/unsup
+1004 fddinet-default                  act/unsup
+1005 trbrf-default                    act/unsup
+1310 VLAN1310                         active
+1311 VLAN1311                         active
+1312 VLAN1312                         active
+1313 VLAN1313                         active
+1320 VLAN1320                         active
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1321 VLAN1321                         active
+1330 VLAN1330                         active
+1331 VLAN1331                         active
+1398 VLAN1398                         active
+1399 VLAN1399                         active
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+1    enet  100001     1500  -      -      -        -    -        0      0
+10   enet  100010     1500  -      -      -        -    -        0      0
+20   enet  100020     1500  -      -      -        -    -        0      0
+30   enet  100030     1500  -      -      -        -    -        0      0
+1002 fddi  101002     1500  -      -      -        -    -        0      0
+1003 trcrf 101003     4472  1005   3276   -        -    srb      0      0
+1004 fdnet 101004     1500  -      -      -        ieee -        0      0
+1005 trbrf 101005     4472  -      -      15       ibm  -        0      0
+1310 enet  101310     1500  -      -      -        -    -        0      0
+1311 enet  101311     1500  -      -      -        -    -        0      0
+1312 enet  101312     1500  -      -      -        -    -        0      0
+1313 enet  101313     1500  -      -      -        -    -        0      0
+1320 enet  101320     1500  -      -      -        -    -        0      0
+1321 enet  101321     1500  -      -      -        -    -        0      0
+1330 enet  101330     1500  -      -      -        -    -        0      0
+
+VLAN Type  SAID       MTU   Parent RingNo BridgeNo Stp  BrdgMode Trans1 Trans2
+---- ----- ---------- ----- ------ ------ -------- ---- -------- ------ ------
+1331 enet  101331     1500  -      -      -        -    -        0      0
+1398 enet  101398     1500  -      -      -        -    -        0      0
+1399 enet  101399     1500  -      -      -        -    -        0      0
+
+
+VLAN AREHops STEHops Backup CRF
+---- ------- ------- ----------
+1003 7       7       off
+
+Remote SPAN VLANs
+------------------------------------------------------------------------------
+
+
+Primary Secondary Type              Ports
+------- --------- ----------------- ------------------------------------------
+
