@@ -1,0 +1,3 @@
+firstname,middleInitial,lastname,username,email,streetaddress,city,zipcode,state,country,department,password,telephone,jobtitle,company,ou
+Lucas,D,Bos,Lbos,lucas.bos@mixinc.com,Lutherstraat 94,Groningen,9642BA,Groningen,Nederland,ICT,Password123!,0612345678,Netwerkbeheerder,Mix Inc,"OU=MIXINC,DC=Mix2g2,DC=inc"
+Allard,J,Veldman,Aveldman,allard.velman@mixinc.com,Zwinglistraat 32,Groningen,9742BN,Groningen,Nederland,ICT,Password123!,0612755678,Netwerkbeheerder,Mix Inc,"OU=MIXINC,DC=Mix2g2,DC=inc"
